@@ -1,22 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Kreon:wght@300;500;600;700&family=Mr+Dafoe&family=Nosifer&family=Overlock:wght@400;700;900&family=Rancho&family=Shadows+Into+Light+Two&display=swap');
+
 /* font-family: 'Kreon', serif;
 font-family: 'Mr Dafoe', cursive;
 font-family: 'Nosifer', cursive;
 font-family: 'Overlock', cursive;
 font-family: 'Rancho', cursive;
 font-family: 'Shadows Into Light Two', cursive; */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.header{
+
+.header {
     background: #000000 url("../images/draw-1.jpg") no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     height: 85vh;
 }
-.nav{
+
+.nav {
     position: sticky;
     top: 0;
     padding: 10px 30px;
@@ -25,7 +28,8 @@ font-family: 'Shadows Into Light Two', cursive; */
     border-bottom: 2px double black;
     z-index: 9999;
 }
-.head-1{
+
+.head-1 {
     display: inline-block;
     font-family: 'Mr Dafoe', cursive;
     text-align: left;
@@ -35,12 +39,14 @@ font-family: 'Shadows Into Light Two', cursive; */
     text-shadow: 3px 3px black;
     cursor: default;
 }
-.head-1:hover{
+
+.head-1:hover {
     color: #a9aaaa;
     text-shadow: 3px 3px black;
     cursor: pointer;
 }
-.head-2{
+
+.head-2 {
     display: inline-block;
     font-family: 'Mr Dafoe', cursive;
     text-align: right;
@@ -50,35 +56,41 @@ font-family: 'Shadows Into Light Two', cursive; */
     text-shadow: 3px 3px black;
     cursor: default;
 }
-.head-2:hover{
+
+.head-2:hover {
     color: #a9aaaa;
     text-shadow: 3px 3px black;
     cursor: pointer;
 }
-.menu{
+
+.menu {
     display: inline-block;
     width: 53%;
     text-align: center;
 }
-.menu-item{
+
+.menu-item {
     text-decoration: none;
     font-family: 'Overlock', cursive;
     padding-left: 15px;
     font-size: 20px;
     color: #8C7994;
 }
-a.menu-item:hover{
+
+a.menu-item:hover {
     text-decoration: none;
     font-family: 'Overlock', cursive;
     padding-left: 15px;
     font-size: 20px;
     color: #4E6091;
 }
-span{
+
+span {
     font-family: 'Nosifer', cursive;
     font-size: 45px;
 }
-.intro{
+
+.intro {
     bottom: -20px;
     position: absolute;
     text-align: center;
@@ -89,40 +101,50 @@ span{
     left: 180px;
     padding: 20px 40px;
 }
-.i1{
+
+.i1 {
     color: #000000;
     text-shadow: 2px 2px 5px black;
 }
-.i1:hover{
+
+.i1:hover {
     color: #9BD2ED;
 }
-.i2{
+
+.i2 {
     color: #000000;
     text-shadow: 2px 2px 5px black;
 }
-.i2:hover{
+
+.i2:hover {
     color: #F44963;
 }
-.i3{
+
+.i3 {
     color: #000000;
     text-shadow: 2px 2px 5px black;
 }
-.i3:hover{
+
+.i3:hover {
     color: #053093;
 }
-.i4{
+
+.i4 {
     color: #000000;
     text-shadow: 2px 2px 5px black;
 }
-.i4:hover{
+
+.i4:hover {
     color: #07A820;
 }
-.about{
+
+.about {
     height: 75vh;
     position: relative;
     background-color: #FAF9FF;
 }
-.about h1{
+
+.about h1 {
     position: absolute;
     top: 100px;
     right: 100px;
@@ -132,7 +154,8 @@ span{
     font-size: 35px;
     color: rgb(0, 67, 99);
 }
-.about p{
+
+.about p {
     position: absolute;
     top: 170px;
     right: 100px;
@@ -141,25 +164,29 @@ span{
     text-align: justify;
     font-size: 20px;
 }
-.about img{
+
+.about img {
     position: absolute;
     top: 100px;
     left: 100px;
     width: 400px;
     height: 300px;
 }
-.title{
+
+.title {
     font-family: 'Nosifer', cursive;
     margin: 50px 0px;
     font-size: 60px;
     text-align: center;
 }
-.showcase{
-    height: 110vh;
+
+.showcase {
+    height: 720px;
     position: relative;
     background-color: #FAF9FF;
 }
-.btn{
+
+.btn {
     padding: 20px 25px;
     text-decoration: none;
     text-align: center;
@@ -172,14 +199,16 @@ span{
     font-family: 'Overlock', cursive;
     font-size: 30px;
 }
-.btn:hover{
+
+.btn:hover {
     color: white;
     border: white;
     background-color: #21146A;
 }
-#working{
+
+#working {
     border-collapse: collapse;
-    font-family: 'Shadows Into Light Two', cursive; 
+    font-family: 'Shadows Into Light Two', cursive;
     position: absolute;
     top: 100px;
     left: 100px;
@@ -187,29 +216,33 @@ span{
     width: 45%;
     cursor: default;
 }
-#working td{
+
+#working td {
     border: 1px solid #FAF9FF;
     padding: 10px 30px;
     font-size: 20px;
     font-weight: 900;
     color: #21146A;
 }
-#working th{
+
+#working th {
     border: 1px solid #FAF9FF;
     padding: 10px 30px;
     font-size: 25px;
     background-color: rgb(0, 67, 99);
     color: white;
 }
-#working tr:nth-child(even){
+
+#working tr:nth-child(even) {
     background-color: #8db6d8;
 }
 
-#working tr:hover{
+#working tr:hover {
     background-color: #646466;
     font-family: 'Overlock', cursive;
 }
-.showcase img{
+
+.showcase img {
     position: absolute;
     top: 130px;
     right: 100px;
@@ -217,49 +250,57 @@ span{
     border: 1px solid transparent;
     border-radius: 100%;
 }
-.sketch{
-    height: 120vh;
+
+.sketch {
+    height: 800px;
     position: relative;
     background-color: #FAF9FF;
 }
-.skecth-1{
+
+.skecth-1 {
     width: 40%;
     top: 100px;
     left: 100px;
     position: absolute;
     text-align: center;
 }
-.ske-img{
+
+.ske-img {
     width: 500px;
     height: 400px;
     border: 20px inset rgb(124, 87, 63);
 }
-.ske-title{
+
+.ske-title {
     margin-top: 20px;
     font-family: 'Kreon', serif;
     font-size: 35px;
     color: rgb(0, 67, 99);
 }
-.ske-para{
+
+.ske-para {
     margin-top: 20px;
     font-family: 'Kreon', serif;
     text-align: justify;
     font-size: 20px;
     color: #646466;
 }
-.skecth-2{
+
+.skecth-2 {
     width: 40%;
     top: 100px;
     right: 100px;
     position: absolute;
     text-align: center;
 }
-.skecth-3{
+
+.skecth-3 {
     width: 40%;
     margin: auto;
     text-align: center;
 }
-.btn-2{
+
+.btn-2 {
     padding: 20px 25px;
     text-decoration: none;
     text-align: center;
@@ -272,26 +313,30 @@ span{
     bottom: 50px;
     right: 41%;
 }
-.btn-2:hover{
+
+.btn-2:hover {
     color: white;
     border: white;
     background-color: #21146A;
 }
-.paint-1{
+
+.paint-1 {
     width: 40%;
     top: 100px;
     left: 100px;
     position: absolute;
     text-align: center;
 }
-.paint-2{
+
+.paint-2 {
     width: 40%;
     top: 100px;
     right: 100px;
     position: absolute;
     text-align: center;
 }
-.paint-3{
+
+.paint-3 {
     width: 60%;
     margin: auto;
     text-align: center;
@@ -300,39 +345,47 @@ span{
     text-align: center;
     left: 20%;
 }
-.contact{
+
+.contact {
     height: 100vh;
     position: relative;
     background-color: #FAF9FF;
 }
-.social{
+
+.social {
     width: 40%;
     top: 130px;
     left: 100px;
     position: absolute;
     text-align: center;
 }
-.social ul li a{
+
+.social ul li a {
     text-decoration: none;
     list-style: none;
     background-color: #FAF9FF;
 }
-.social ul{
+
+.social ul {
     word-spacing: 20px;
     font-size: 100px;
     padding-top: 20px;
 }
-.social li{
+
+.social li {
     display: inline-block;
 }
-.social ul li a i{
+
+.social ul li a i {
     border-radius: 100%;
     padding: 5px 3px 3px 5px;
 }
-.social ul li a i:hover{
+
+.social ul li a i:hover {
     color: blue;
 }
-.contact-form{
+
+.contact-form {
     width: 40%;
     top: 100px;
     right: 100px;
@@ -347,7 +400,8 @@ span{
     border-bottom-left-radius: 20px; */
     height: 470px;
 }
-.contact-form h3{
+
+.contact-form h3 {
     color: #21146A;
     font-size: 30px;
     border-bottom: 5px solid #21146A;
@@ -355,35 +409,41 @@ span{
     padding: 20px;
     margin-bottom: 30px;
 }
-.contact-form label{
+
+.contact-form label {
     font-size: 23px;
     font-weight: 900;
     word-spacing: 20px;
     padding: 20px;
 }
-.contact-form #Name{
+
+.contact-form #Name {
     width: 60%;
     padding: 20px;
     margin-bottom: 20px;
 }
-.contact-form #mail{
+
+.contact-form #mail {
     width: 60%;
     padding: 20px;
     margin-bottom: 20px;
     margin-left: -3px;
 }
-.contact-form #msg{
+
+.contact-form #msg {
     width: 60%;
     padding: 20px;
     height: 100px;
     margin-bottom: 20px;
     margin-left: -8px;
 }
-.contact-form input{
+
+.contact-form input {
     border: 2px solid rgba(146, 144, 144, 0.24);
     border-radius: 10px;
 }
-.btn-3{
+
+.btn-3 {
     position: absolute;
     padding: 15px 20px;
     text-decoration: none;
@@ -397,15 +457,115 @@ span{
     bottom: 20px;
     left: 40%;
 }
-.btn-3:hover{
+
+.btn-3:hover {
     color: white;
     background-color: #21146A;
 }
-.footer{
+
+.footer {
     background-color: #21146A;
     color: white;
     text-align: center;
     font-family: 'Overlock', cursive;
     font-size: 20px;
     padding: 30px;
+}
+
+/* Add a general style for mobile screens */
+@media screen and (max-width: 600px) {
+    .menu {
+        display: none;
+        /* Hide the menu on small screens */
+    }
+
+    .nav {
+        padding: 10px;
+        /* Adjust padding for the header */
+    }
+
+    /* Style for the header text on small screens */
+    .head-1,
+    .head-2 {
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+        padding: 10px;
+    }
+
+    /* Style for the header icons on small screens */
+    .head-1 i,
+    .head-2 i {
+        display: none;
+    }
+
+    /* Style for the introduction text on small screens */
+    .intro {
+        left: 10px;
+        right: 10px;
+    }
+
+    /* Style for the about section on small screens */
+    .about h1,
+    .about p {
+        position: static;
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .about img {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    /* Add responsive style for the showcase table */
+    #working {
+        width: 100%;
+    }
+
+    #working th,
+    #working td {
+        padding: 5px;
+    }
+
+    /* Style for showcase images on small screens */
+    .showcase img {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+
+    /* Style for sketch and painting sections on small screens */
+    .sketch,
+    .paint-1,
+    .paint-2,
+    .paint-3 {
+        width: 100%;
+        position: static;
+        text-align: left;
+        padding: 10px;
+        margin: 20px 0;
+    }
+
+    .ske-img {
+        width: 100%;
+        height: auto;
+        border: 10px inset rgb(124, 87, 63);
+    }
+
+    .btn-2 {
+        position: static;
+        margin: 20px 0;
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer {
+        padding: 10px;
+        font-size: 16px;
+    }
 }
